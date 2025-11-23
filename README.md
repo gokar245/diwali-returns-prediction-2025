@@ -44,11 +44,9 @@ Steps Performed
 
 7.Compared return rates across sentiment categories
 
+**Why Logistic Regression Performed Best**
 
- Model Used               Accuracy 
- Logistic Regression        51 
- Random Forest              50  
- XGBoost                    50
+ To improve the prediction performance, I also tested Random Forest and XGBoost along with Logistic Regression. The Random Forest model reached an accuracy of about 0.5060, and XGBoost achieved around 0.5025, but both showed very minimal improvement and required more tuning. Logistic Regression performed slightly better with an accuracy of 0.5120, and because it is simple, stable, and easy to explain, I chose it as the final model for this project.
 
 **Conclusion**
 
